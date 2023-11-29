@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="/assets/reset.css">
 </head>
+
 <body>
     <header class="cabecalho container">
         <nav class="cabecalho_menu">
@@ -22,12 +24,28 @@
         </nav>
         <a class="link-button" href="#">contact me</a>
     </header>
-    <section class="apresentacao">
-        <h1 id="mensagem"></h1>
-
-
+    <section class="apresentacao container">
+        <div class="apresentacao__left">
+            <h1 id="mensagem">Exemplo</h1>
+            <h2 class="apresentacao__titulo">Meu nome é Lázaro Kauã, sou<p id="developer">Desenvolvedor Front-End.</p>
+            </h2>
+            <p class="apresentacao__texto">Comecei a estudar Programação em junho de 2023, minhas aspirações como
+                desenvolvedor estão voltadas ao
+            <p id="JavaScript">JavaScript.</p>
+            </p>
+        </div>
+        <div class="apresentacao__imagem">
+            <img src="/assets/imagens/profile-2.jpg" alt="Lazaro desenvolvedor, foto de perfil"
+                class="apresentacao__imagem__profile">
+            <div class="elipses">
+                <a href="https://www.linkedin.com/in/lazaro-kaua/" target="_blank"><img src="/assets/imagens/Group 17.svg" alt="icon do linkedin"></a>
+                <a href="https://github.com/Lazarokaua" target="_blank"><img src="/assets/imagens/Group 18.svg" alt="icon do GitHub" id="github"></a>
+                <a href="https://www.instagram.com/lazarokaua_/" target="_blank"><img src="/assets/imagens/Group 19.svg" alt="icon do instagram"></a>
+            </div>
+        </div>
     </section>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

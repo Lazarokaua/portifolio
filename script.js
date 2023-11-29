@@ -1,5 +1,9 @@
-let nome = prompt('qual é seu nome:');
+// let nome = prompt('Qual é o seu nome: ');
 
-let m = document.getElementById("mensagem");
+// let m = document.getElementById("mensagem");
 
-m.textContent = "Bem vindo " + nome;
+// if (nome === null || nome === "") {
+//     m.textContent = "Bem vindo, visitante sem nome!";
+// } else {
+//     m.textContent = "Bem vindo " + nome + "!";
+// }
