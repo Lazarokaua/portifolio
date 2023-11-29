@@ -1,6 +1,6 @@
 :root{
     --cor-pricipal: #170550;
-    --cor-secundaria: #43366A;
+    --cor-secundaria: #31065A;
     --cor-terciaria: #FF6C22;
     --fonte:'Exo 2', sans-serif;
 }
@@ -13,7 +13,6 @@ body{
 
 .cabecalho{
     text-align: center;
-    height: 10vh;
 }
 
 .container{
@@ -21,7 +20,7 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    background-color: #170550;
+    background-color: var(--cor-secundaria);
 }
 
 .cabecalho_menu{
@@ -65,7 +64,7 @@ body{
 /* primeira section */
 
 .apresentacao{
-    
+    background-color: var(--cor-pricipal);
 }
 
 .apresentacao__left{
@@ -116,4 +115,68 @@ body{
 #github
 {
     margin: 0 1.5em 0 1.5em;
+}
+
+/* sessão de projetos */
+
+.portifolio{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: var(--cor-secundaria)
+}
+
+.portifolio__titulo{
+    font-weight: 800;
+    font-size: 25px;
+    color: var(--cor-terciaria);
+    height: 0;
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+hr{
+    width: 35%;
+    margin-top: 1.5em;
+}
+
+.projetos{
+    text-align: center;
+}
+
+.projetos__conteudo{
+    padding: 1em 0;
+}
+
+.conteudo__titulo{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.5em 0;
+    color: #fff;
+}
+
+.conteudo__imagem{
+    width: 150px;
+    height: 87px;
+}
+
+.botoes{
+    text-align: center;
+}
+
+.conteudo__botao{
+    margin: 5.1em 0;
+    background-color: transparent;
+    border: none;
+}
+
+.botao__link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box__arrow{
+    padding-right: 1em;
+    filter: invert(47%) sepia(89%) saturate(1367%) hue-rotate(343deg) brightness(99%) contrast(104%);
 }
