@@ -122,9 +122,6 @@ body{
 /* sessão de projetos */
 
 .portifolio{
-    padding: 2em;
-    display: grid;
-    grid-template-columns: 50% 50%;
     background-color: var(--cor-secundaria)
 }
 
@@ -138,16 +135,16 @@ body{
 }
 
 hr{
-    width: 35%;
+    width: 175px;
     margin-top: 1.5em;
 }
 
 .projetos{
-    text-align: center;
+  text-align: center;
 }
 
 .projetos__conteudo{
-    padding: 1em 0;
+   
 }
 
 .conteudo__titulo{
@@ -162,14 +159,13 @@ hr{
     height: 87px;
 }
 
-.botoes{
-    text-align: center;
-}
 
 .conteudo__botao{
-    margin: 5.1em 0;
     background-color: transparent;
-    border: none;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 1em;
 }
 
 .botao__link{
