@@ -119,13 +119,26 @@
         </div>
     </section>
     <section class="contact">
+        <h2 class="contact__titulo">Contact</h2>
+        <hr>
+        <form class="contact__formulario" action="form.php" method="post">
 
+            <input type="text" id="nome" name="nome" required class="formulario__input" placeholder="Digite seu nome">
+
+
+            <input type="email" id="email" name="email" required class="formulario__input" placeholder="Digite seu Email">
+
+
+            <textarea name="mensagem" id="mensagem" cols="15" rows="5" required  class="formulario__input" placeholder="Deixe aqui sua Mensagem!"></textarea>
+
+            <button type="submit" class="contact__button">Enviar Mensagem</button>
+        </form>
 
     </section>
     <footer class="rodape">
 
     </footer>
-    <script src="script.js"></script>
+    <script src="/JavaScript/script.js"></script>
 </body>
 
 </html>
