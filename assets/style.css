@@ -290,3 +290,38 @@ input{
    border-radius: 50px;
    height: 25px;
 }
+
+.rodape{
+    padding: 1em;
+    margin: 1em 0 0 0;
+    background-color: var(--cor-pricipal);
+}
+
+.rodape__links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape__texto{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--cor-terciaria);
+    margin-bottom: 1em;
+}
+
+.rodape__links___link{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.icones{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0.5em;
+}
+
+.rodape__imagem{
+    width: 34px;
+    height: 34px;
+}

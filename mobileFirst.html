@@ -15,11 +15,11 @@
 
 <body>
     <header class="cabecalho container">
-        <nav class="cabecalho_menu">
+        <nav id="cabecalho_menu">
             <ul class="cabecalho__lista">
-                <li class="lista__item"><a class="item__link" href="#"> Home</li></a>
-                <li class="lista__item"><a class="item__link" href="#"> about</li></a>
-                <li class="lista__item"><a class="item__link" href="#"> curriculum</li></a>
+                <li class="lista__item"><a class="item__link" href="#cabecalho_menu"> Home</li></a>
+                <li class="lista__item"><a class="item__link" href="#about"> about</li></a>
+                <li class="lista__item"><a class="item__link" href="/curriculum.html"> curriculum</li></a>
             </ul>
         </nav>
         <a class="link-button" href="#">contact me</a>
@@ -60,7 +60,7 @@
             </div>
 
             <button class="conteudo__botao"><a href="https://lazarokaua.github.io/Orbitshift/" target="_blank"
-                class="botao__link">venha conferir o projeto!</a></button>
+                    class="botao__link">venha conferir o projeto!</a></button>
 
 
             <div class="projetos__conteudo">
@@ -71,7 +71,7 @@
                     class="conteudo__imagem">
             </div>
             <button class="conteudo__botao"><a href="https://alura-plus-five-coral.vercel.app/" target="_blank"
-                class="botao__link">venha conferir! o projeto!</a></button>
+                    class="botao__link">venha conferir! o projeto!</a></button>
 
             <div class="projetos__conteudo">
                 <h2 class="conteudo__titulo">
@@ -80,10 +80,10 @@
                 <img src="/assets/imagens/sistok-img.png" alt="preview do projeto Sistok" class="conteudo__imagem">
             </div>
             <button class="conteudo__botao"><a href="https://sistok-clone.vercel.app/" target="_blank"
-                class="botao__link">
-                venha conferir o projeto!</a></button>
+                    class="botao__link">
+                    venha conferir o projeto!</a></button>
         </div>
-    
+
     </section>
     <section class="informe">
         <!-- informar numero de projetos -->
@@ -106,7 +106,7 @@
             </p>
         </div>
     </section>
-    <section class="about">
+    <section id="about">
         <h2 class="about__titulo">About <span class="about__destaque">Me</span></h2>
         <hr>
         <div class="descricao container">
@@ -118,7 +118,7 @@
             <h2 class="descricao__titulo">Desenvolvedor Front-End</h2>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <h2 class="contact__titulo">Contact</h2>
         <hr>
         <form class="contact__formulario" action="form.php" method="post">
@@ -126,17 +126,26 @@
             <input type="text" id="nome" name="nome" required class="formulario__input" placeholder="Digite seu nome">
 
 
-            <input type="email" id="email" name="email" required class="formulario__input" placeholder="Digite seu Email">
+            <input type="email" id="email" name="email" required class="formulario__input"
+                placeholder="Digite seu Email">
 
-
-            <textarea name="mensagem" id="mensagem" cols="15" rows="5" required  class="formulario__input" placeholder="Deixe aqui sua Mensagem!"></textarea>
+            <textarea name="mensagem" id="mensagem" cols="15" rows="5" required class="formulario__input"
+                placeholder="Deixe aqui sua Mensagem!"></textarea>
 
             <button type="submit" class="contact__button">Enviar Mensagem</button>
         </form>
-
     </section>
     <footer class="rodape">
-
+        <h2 class="rodape__texto">Permita-me fazer parte da construção do seu sonho!🖖🏼</h2>
+        <div class="icones">
+            <a href="#contact"><img src="/assets/imagens/Group 13.svg" class="rodape__imagem"></a>
+            <a href="https://www.linkedin.com/in/lazaro-kaua/" target="_blank"><img src="/assets/imagens/Group 17.svg" class="rodape__imagem"></a>
+        </div>
+        <div class="rodape__links">
+            <a href="#contact" class="rodape__links___link">dev.lazarokaua@gmail.com</a>
+            <a href="https://www.linkedin.com/in/lazaro-kaua/" target="_blank"
+                class="rodape__links___link">lazarokaua</a>
+        </div>
     </footer>
     <script src="/JavaScript/script.js"></script>
 </body>
