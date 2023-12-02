@@ -9,20 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="/assets/reset.css">
 </head>
 
 <body>
     <header class="cabecalho container">
-        <nav id="cabecalho_menu">
+        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+        <nav id="itens">
             <ul class="cabecalho__lista">
                 <li class="lista__item"><a class="item__link" href="#cabecalho_menu"> Home</li></a>
                 <li class="lista__item"><a class="item__link" href="#about"> about</li></a>
-                <li class="lista__item"><a class="item__link" href="/curriculum.html"> curriculum</li></a>
+                <li class="lista__item"><a class="item__link" href=""> curriculum</li></a> 
+                <!-- link do download do curriculo -->
             </ul>
         </nav>
-        <a class="link-button" href="#">contact me</a>
+        <a id="linkButton" href="#contact">contact me</a>
     </header>
     <section class="apresentacao container">
         <div class="apresentacao__left">
@@ -139,7 +142,8 @@
         <h2 class="rodape__texto">Permita-me fazer parte da construção do seu sonho!🖖🏼</h2>
         <div class="icones">
             <a href="#contact"><img src="/assets/imagens/Group 13.svg" class="rodape__imagem"></a>
-            <a href="https://www.linkedin.com/in/lazaro-kaua/" target="_blank"><img src="/assets/imagens/Group 17.svg" class="rodape__imagem"></a>
+            <a href="https://www.linkedin.com/in/lazaro-kaua/" target="_blank"><img src="/assets/imagens/Group 17.svg"
+                    class="rodape__imagem"></a>
         </div>
         <div class="rodape__links">
             <a href="#contact" class="rodape__links___link">dev.lazarokaua@gmail.com</a>
@@ -148,6 +152,18 @@
         </div>
     </footer>
     <script src="/JavaScript/script.js"></script>
+    <script>
+        function clickMenu() {
+          if (itens.style.display == 'block' ){
+            itens.style.display = 'none'
+            linkButton.style.margin = '0 0 0 2em'
+
+          } else {
+            itens.style.display = 'block'
+            linkButton.style.margin = '1em 0'
+          }
+        };
+    </script>
 </body>
 
 </html>

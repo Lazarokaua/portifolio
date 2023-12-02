@@ -15,7 +15,7 @@ body {
 
 
 .cabecalho {
-    text-align: center;
+    padding:  1em 1em;
 }
 
 .container {
@@ -24,15 +24,21 @@ body {
     grid-template-columns: 50% 50%;
     align-items: center;
     background-color: var(--cor-secundaria);
+} 
+
+#burguer{
+    width: 50%;
+    color: var(--branco);
+    padding: 0.3em;
 }
 
-.cabecalho_menu {}
+#itens {
+    display: none;
+}
 
 .cabecalho__lista {
     display: flex;
-    flex-direction: row;
-    gap: 1em;
-    padding: 1em;
+    gap: 0.8em;
 }
 
 .lista__item {}
@@ -46,7 +52,7 @@ body {
 
 #item__sobre {}
 
-.link-button {
+#linkButton {
     background-color: var(--cor-terciaria);
     color: var(--branco);
     width: 5em;
@@ -55,8 +61,9 @@ body {
     border-radius: 20px;
     text-decoration: none;
     list-style: none;
-    margin: 0 0 0 4em;
-    padding: 5px;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    padding: 5px; 
 }
 
 /* primeira section */
