@@ -1,0 +1,68 @@
+/*  typical device breakpoints
+------------------------------------
+Mobile devices – 320px até 480px.
+iPads, Tablets – 481px até 768px.
+Small screens, laptops – 769px até 1024px.
+Desktops, large screens – 1025px até 1200px.
+Extra large screens, TV – 1201px, and more.
+ */
+
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .apresentacao{
+        padding: 1em 1em 1em 0;
+        width: 105%;
+    }
+
+    .container{
+        width: 105%;
+    }
+    
+    .apresentacao__imagem{
+        width: 100%;
+        margin-left: 35%;
+    }
+
+    .projetos{
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        margin-left: 5%;
+    }
+
+    .informe{
+        padding: 1em 1em 1em 0;
+        width: 105%;
+    }
+
+    #about{
+        width: 105%;
+    }
+
+    .descricao__titulo{
+        display: none;
+    }
+
+    .descricao__texto{
+        padding: 5% 5% 0 0;
+        
+    }
+
+    .contact__formulario{
+       margin: 10% 25%;
+    }
+
+    .rodape{
+        width: 105%;
+    }
+ }
+
+ 
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+ }
+
+ 
+ @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+ }
