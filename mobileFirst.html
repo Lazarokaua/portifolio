@@ -16,38 +16,60 @@
 </head>
 
 <body>
-    <header class="cabecalho container">
-        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
-        <nav id="itens">
-            <ul class="cabecalho__lista">
-                <li class="lista__item"><a class="item__link" href="#cabecalho_menu"> Home</li></a>
-                <li class="lista__item"><a class="item__link" href="#about"> about</li></a>
-                <li class="lista__item"><a class="item__link" href=""> curriculum</li></a> 
-                <!-- link do download do curriculo -->
-            </ul>
+    <header class="cabecalho">
+
+
+
+        <nav class="nav-bar">
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#cabecalho_menu"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"> about</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""> curriculum</a></li>
+                </ul>
+            </div>
+            <div class="bnt-contact">
+                <a href="#">Contact me</a>
+            </div>
+            <div onclick="menuShow()" class="mobile-menu-icon">
+                <button><img class="icon" src="/assets/imagens/menu_white_36dp.svg"></button>
+            </div>
         </nav>
-        <a id="linkButton" href="#contact">contact me</a>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#cabecalho_menu"> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about"> about</a></li>
+                <li class="nav-item"><a class="nav-link" href=""> curriculum</a></li>
+
+            </ul>
+            <div class="bnt-contact">
+                <a href="#">Contact me</a>
+            </div>
+        </div>
+
+
     </header>
-    <section class="apresentacao container">
+    <section class="apresentacao">
         <div class="apresentacao__left">
             <h1 id="mensagem"></h1>
             <h2 class="apresentacao__titulo">Meu nome é Lázaro Kauã, sou<p id="developer">Desenvolvedor Front-End.</p>
             </h2>
-            <p class="apresentacao__texto">Comecei a estudar Programação em julho de 2023, minhas aspirações como
+            <p class="apresentacao__texto">Comecei a estudar Programação em julho de 2023, <br> minhas aspirações como
                 desenvolvedor estão voltadas ao
             <p id="JavaScript">JavaScript.</p>
             </p>
         </div>
-        <div class="apresentacao__imagem">
+        <div class="apresentacao__rigth">
             <img src="/assets/imagens/profile-2.jpg" alt="Lazaro desenvolvedor, foto de perfil"
                 class="apresentacao__imagem__profile">
             <div class="elipses">
                 <a href="https://www.linkedin.com/in/lazaro-kaua/" target="_blank"><img
-                        src="/assets/imagens/Group 17.svg" alt="icon do linkedin"></a>
+                        src="/assets/imagens/Group 17.svg" alt="icon do linkedin" class="elipses__img"></a>
                 <a href="https://github.com/Lazarokaua" target="_blank"><img src="/assets/imagens/Group 18.svg"
-                        alt="icon do GitHub" id="github"></a>
+                        alt="icon do GitHub" id="github"class="elipses__img"></a>
                 <a href="https://www.instagram.com/lazarokaua_/" target="_blank"><img src="/assets/imagens/Group 19.svg"
-                        alt="icon do instagram"></a>
+                        alt="icon do instagram" class="elipses__img"></a>
             </div>
         </div>
     </section>
@@ -60,20 +82,53 @@
                 <h2 class="conteudo__titulo">
                     Orbitshift
                 </h2>
-               
+
                 <img src="/assets/imagens/orbitshift.png" alt="preview do projeto Orbitshift" class="conteudo__imagem">
                 <button class="conteudo__botao"><a href="https://lazarokaua.github.io/Orbitshift/" target="_blank"
                         class="botao__link">venha conferir o projeto!</a></button>
             </div>
-            
+
             <div class="projetos__conteudo">
                 <h2 class="conteudo__titulo">
                     Alura Plus
                 </h2>
                 <img src="/assets/imagens/alura-plus-img.png" alt="preview do projeto Alura-Plus"
                     class="conteudo__imagem">
-                    <button class="conteudo__botao"><a href="https://alura-plus-five-coral.vercel.app/" target="_blank"
-                            class="botao__link">venha conferir! o projeto!</a></button>
+                <button class="conteudo__botao"><a href="https://alura-plus-five-coral.vercel.app/" target="_blank"
+                        class="botao__link">venha conferir! o projeto!</a></button>
+            </div>
+
+            <div class="projetos__conteudo">
+                <h2 class="conteudo__titulo">
+                    Sistok
+                </h2>
+                <img src="/assets/imagens/sistok-img.png" alt="preview do projeto Sistok" class="conteudo__imagem">
+                <button class="conteudo__botao"><a href="https://sistok-clone.vercel.app/" target="_blank"
+                        class="botao__link">
+                        venha conferir o projeto!</a></button>
+            </div>
+
+        </div>
+        <!-- segunda parte de projetos  -->
+        <div class="projetos__two">
+            <div class="projetos__conteudo">
+                <h2 class="conteudo__titulo">
+                    Orbitshift
+                </h2>
+
+                <img src="/assets/imagens/orbitshift.png" alt="preview do projeto Orbitshift" class="conteudo__imagem">
+                <button class="conteudo__botao"><a href="https://lazarokaua.github.io/Orbitshift/" target="_blank"
+                        class="botao__link">venha conferir o projeto!</a></button>
+            </div>
+
+            <div class="projetos__conteudo">
+                <h2 class="conteudo__titulo">
+                    Alura Plus
+                </h2>
+                <img src="/assets/imagens/alura-plus-img.png" alt="preview do projeto Alura-Plus"
+                    class="conteudo__imagem">
+                <button class="conteudo__botao"><a href="https://alura-plus-five-coral.vercel.app/" target="_blank"
+                        class="botao__link">venha conferir! o projeto!</a></button>
             </div>
 
             <div class="projetos__conteudo">
@@ -86,7 +141,6 @@
                         venha conferir o projeto!</a></button>
             </div>
         </div>
-
     </section>
     <section class="informe">
         <!-- informar numero de projetos -->
@@ -112,13 +166,14 @@
     <section id="about">
         <h2 class="about__titulo">About <span class="about__destaque">Me</span></h2>
         <hr>
-        <div class="descricao container">
+        <div class="pai-profile">
             <img src="/assets/imagens/profile3.jpg" alt="Lazaro desenvolvedor, foto de perfil"
-                class="apresentacao__imagem__profile">
+                class="apresentacao__imagem__profile2">
+        </div>
+        <div class="descricao">
             <p class="descricao__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque magnam
                 repudiandae provident repellat ipsum eaque, maiores beatae dolorem ut reprehenderit ipsa esse nulla
-                asperiores. Pariatur doloribus quas possimus similique earum.</p>
-            <h2 class="descricao__titulo">Desenvolvedor Front-End</h2>
+                asperiores. Pariatur <br>doloribus quas possimus similique earum.</p>
         </div>
     </section>
     <section id="contact">
@@ -152,19 +207,7 @@
         </div>
     </footer>
     <script src="/JavaScript/script.js"></script>
-    <script>
-        function clickMenu() {
-          if (itens.style.display == 'block' ){
-            itens.style.display = 'none'
-            linkButton.style.margin = '0 0 0 10%'
-
-          } else {
-            itens.style.display = 'block'
-            linkButton.style.margin = '2% 0 0 2%'
-          }
-          
-        };
-    </script>
+    <script src="/JavaScript/menu.js"></script>
 </body>
 
 </html>

@@ -15,65 +15,70 @@ body {
 
 
 .cabecalho {
-    padding:  1em 1em;
-}
-
-.container {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 50% 50%; 
-    align-items: center;
     background-color: var(--cor-secundaria);
-} 
-
-#burguer{
-    width: 50%;
-    color: var(--branco);
-    padding: 0.3em;
 }
 
-#itens {
-    display: none;
-}
 
-.cabecalho__lista {
+/* navegação aqui */
+.nav-bar{
     display: flex;
-    gap: 0.8em;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
 }
 
-.lista__item {}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
 
-.item__link {
-    color: var(--branco);
-    text-decoration: none;
+.nav-list ul {
+    display: flex;
+    justify-content: center;
     list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: var(--branco);
     font-weight: 400;
 }
 
-#item__sobre {}
-
-#linkButton {
-    background-color: var(--cor-terciaria);
-    color: var(--branco);
-    width: 5em;
-    height: 1em;
-    font-weight: 600;
-    border-radius: 20px;
+.bnt-contact a{
     text-decoration: none;
-    list-style: none;
-    margin-top: 0.5em;
-    margin-left: 10%;
-    padding: 5px; 
+    border: 2px solid var(--cor-terciaria);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--branco);
+}
+
+.bnt-contact a:hover{
+    background-color: var(--cor-terciaria);
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
 }
 
 /* primeira section */
 
 .apresentacao {
     background-color: var(--cor-pricipal);
+    width: 100vw;
 }
 
 .apresentacao__left {
-    padding: 1em 0 1em 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0 0 1em;
 }
 
 #mensagem {
@@ -90,7 +95,7 @@ body {
 
 #developer {
     color: var(--cor-terciaria);
-    font-weight: 800;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -106,15 +111,18 @@ body {
     color: var(--cor-terciaria);
 }
 
+.apresentacao__rigth{
+    text-align: center;
+}
+
 .apresentacao__imagem__profile {
     width: 100px;
     height: 100px;
     border-radius: 200px;
-    margin: 0 0 0 3em;
 }
 
 .elipses {
-    margin: 1em 0 0 1.5em;
+    padding: 0.5em 0;
 }
 
 #github {
@@ -214,7 +222,20 @@ hr {
 
 /* section about */
 
-.about {}
+.about {
+   
+}
+
+.pai-profile{
+    text-align: center;
+    padding: 1em 0;
+}
+
+.apresentacao__imagem__profile2{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
 
 .about__titulo {
     font-weight: 800;
@@ -232,21 +253,16 @@ hr {
 }
 
 .descricao {
-    text-align: center;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    margin-left: 1em;
 }
 
 .descricao__texto {
     color: var(--branco);
-    font-weight: 600;
-    font-size: 15px;
-    padding: 1em;
-}
-
-.descricao__titulo {
-    color: var(--cor-terciaria);
-    font-weight: 600;
-    font-size: 16px;
-    margin-top: -3.5em;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 /* section contato */
@@ -266,8 +282,6 @@ hr {
 }
 
 .contact__formulario {
-    margin: 2em 0 0 6.5em;
-    width: 50%;
     gap: 10px;
     display: flex;
     flex-direction: column;
