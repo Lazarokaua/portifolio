@@ -1,0 +1,7 @@
+
+.rodape__texto{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--cor-terciaria);
+    margin-bottom: 1em;
+}

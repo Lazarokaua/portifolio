@@ -4,6 +4,7 @@
 
 // if (nome === null || nome === "") {
 //     m.textContent = "Bem vindo, visitante sem nome!";
+    
 // } else {
 //     m.textContent = "Bem vindo " + nome + "!";
 // }

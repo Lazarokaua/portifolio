@@ -1,0 +1,5 @@
+.about__destaque {
+    font-weight: 800;
+    font-size: 25px;
+    color: var(--cor-terciaria);
+}

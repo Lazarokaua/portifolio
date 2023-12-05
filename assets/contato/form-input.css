@@ -1,0 +1,20 @@
+.formulario__input {
+    padding-left: 0.5em;
+    background-color: #43366A;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+input{
+    color: var(--branco);
+}
+
+
+::placeholder{
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 16px;
+}

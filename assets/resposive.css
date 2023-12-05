@@ -225,7 +225,9 @@ Extra large screens, TV – 1201px, and more.
         gap: 5%;
     }
 
-    .projetos__conteudo {}
+    .projetos__conteudo {
+        
+    }
 
     .conteudo__titulo {
         font-size: 25px;
@@ -233,14 +235,11 @@ Extra large screens, TV – 1201px, and more.
     }
 
     .conteudo__imagem {
-
-        width: 200px;
-        height: 200px;
+   
     }
 
     .conteudo__botao {
         margin: 2em 0;
-        width: 125px;
         height: 50px;
     }
 

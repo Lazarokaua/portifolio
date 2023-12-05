@@ -1,0 +1,8 @@
+.contact__titulo {
+    font-weight: 800;
+    font-size: 25px;
+    color: var(--cor-terciaria);
+    height: 0;
+    text-align: center;
+    padding: 1em 0 0 0;
+}

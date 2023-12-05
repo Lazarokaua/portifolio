@@ -1,0 +1,7 @@
+.informe {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-pricipal);
+    color: var(--branco);
+    padding: 1em 0 1em 0;
+}

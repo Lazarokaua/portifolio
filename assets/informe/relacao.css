@@ -1,0 +1,7 @@
+
+.informe__relacao {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,7 @@
+.contact__button{
+    background-color: #43366A;
+    color: var(--branco);
+    border: none;
+    border-radius: 50px;
+    height: 25px;
+ }

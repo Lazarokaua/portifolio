@@ -1,0 +1,6 @@
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: var(--branco);
+    font-weight: 400;
+}

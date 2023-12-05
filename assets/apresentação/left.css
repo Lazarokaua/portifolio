@@ -1,0 +1,5 @@
+.apresentacao__left {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0 0 1em;
+}

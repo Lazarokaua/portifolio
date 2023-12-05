@@ -1,0 +1,12 @@
+.bnt-contact a{
+    text-decoration: none;
+    border: 2px solid var(--cor-terciaria);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--branco);
+}
+
+
+.bnt-contact a:hover{
+    background-color: var(--cor-terciaria);
+}

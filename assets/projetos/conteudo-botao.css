@@ -1,0 +1,13 @@
+.conteudo__botao {
+    background-color: transparent;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.botao__link {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 600;
+}
