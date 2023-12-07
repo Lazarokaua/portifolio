@@ -80,8 +80,16 @@ Extra large screens, TV – 1201px, and more.
 /* tablet */
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    .cabecalho{
+        
+        width: 100%;
+    }
+
+
     .nav-bar {
         padding: 1.5rem 4rem;
+        display: flex;
+        justify-content: center;
     }
 
     .nav-item {
@@ -90,7 +98,7 @@ Extra large screens, TV – 1201px, and more.
 
     .bnt-contact a {
         display: block;
-        padding: 1em 0.5em;
+        padding: 1em 1em;
     }
 
     .mobile-menu-icon {
@@ -373,6 +381,14 @@ Extra large screens, TV – 1201px, and more.
         background-color: var(--cor-quaternaria);
         height: 100%;
         margin: 0;
+    }
+
+    .descricao__texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        padding: 1em 0;
     }
 
     .formulario__input {
