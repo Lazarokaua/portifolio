@@ -2,6 +2,6 @@
 .rodape__texto{
     font-weight: 800;
     font-size: 20px;
-    color: var(--cor-terciaria);
+    color: var(--cor-destaque);
     margin-bottom: 1em;
 }

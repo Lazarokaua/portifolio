@@ -1,7 +1,13 @@
 .contact__button{
-    background-color: #43366A;
-    color: var(--branco);
+    background-color: var(--branco);
+    color: var(--preto);
     border: none;
     border-radius: 50px;
     height: 25px;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+ }
+
+ .contact__button:hover{
+    background-color: var(--cor-destaque);
  }

@@ -1,7 +1,7 @@
 .informe {
     display: flex;
     justify-content: space-between;
-    background-color: var(--cor-pricipal);
+    background-color: var(--cor-principal);
     color: var(--branco);
     padding: 1em 0 1em 0;
 }

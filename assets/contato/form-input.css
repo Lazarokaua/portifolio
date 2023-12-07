@@ -1,6 +1,6 @@
 .formulario__input {
     padding-left: 0.5em;
-    background-color: #43366A;
+    background-color: var(--cor-principal);
     border-radius: 50px;
     font-weight: 800;
     font-size: 20px;

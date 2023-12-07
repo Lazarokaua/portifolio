@@ -130,7 +130,7 @@ Extra large screens, TV – 1201px, and more.
 
     .elipses__img:hover {
 
-        filter: invert(57%) sepia(34%) saturate(5955%) hue-rotate(345deg) brightness(101%) contrast(101%);
+       filter: var(--filter);
 
     }
 
@@ -172,11 +172,11 @@ Extra large screens, TV – 1201px, and more.
     }
 
     .rodape__imagem:hover {
-        filter: invert(57%) sepia(34%) saturate(5955%) hue-rotate(345deg) brightness(101%) contrast(101%);
+       filter: var(--filter);
     }
 
     .rodape__links___link:hover {
-        color: var(--cor-terciaria);
+        color: var(--cor-destaque);
     }
 }
 
@@ -184,13 +184,12 @@ Extra large screens, TV – 1201px, and more.
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
 
     .nav-link:hover {
-        color: var(--cor-terciaria);
+        color: var(--cor-destaque);
     }
 
     .elipses__img:hover {
 
-        filter: invert(57%) sepia(34%) saturate(5955%) hue-rotate(345deg) brightness(101%) contrast(101%);
-
+        filter: var(--filter);
     }
 
     .apresentacao {
@@ -244,28 +243,26 @@ Extra large screens, TV – 1201px, and more.
     }
 
     .conteudo__botao:hover {
-        background-color: var(--cor-terciaria);
+        background-color: var(--cor-destaque);
     }
 
     .rodape__imagem:hover {
-        filter: invert(57%) sepia(34%) saturate(5955%) hue-rotate(345deg) brightness(101%) contrast(101%);
+        filter: var(--filter);
     }
 
     .rodape__links___link:hover {
-        color: var(--cor-terciaria);
+        color: var(--cor-destaque);
     }
 }
 
 @media screen and (min-width: 1201px) {
 
     .nav-link:hover {
-        color: var(--cor-terciaria);
+        color: var(--cor-destaque);
     }
 
     .elipses__img:hover {
-
-        filter: invert(57%) sepia(34%) saturate(5955%) hue-rotate(345deg) brightness(101%) contrast(101%);
-
+        filter: var(--filter);
     }
 
     .apresentacao {
@@ -320,14 +317,30 @@ Extra large screens, TV – 1201px, and more.
     }
 
     .conteudo__botao:hover {
-        background-color: var(--cor-terciaria);
+        background-color: var(--cor-destaque);
     }
 
+    #contact{
+        background-color: var(--cor-quaternaria);
+        height: 100%;
+        margin: 0;
+    }
+
+    .formulario__input {
+        background-color: var(--cor-principal);
+    }
+
+    .contact__button{
+        height: 1.75rem;
+    }
+
+
+
     .rodape__imagem:hover {
-        filter: invert(57%) sepia(34%) saturate(5955%) hue-rotate(345deg) brightness(101%) contrast(101%);
+        filter: var(--filter);
     }
 
     .rodape__links___link:hover {
-        color: var(--cor-terciaria);
+        color: var(--cor-destaque);
     }
 }

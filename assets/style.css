@@ -1,9 +1,13 @@
 :root {
-    --cor-pricipal: #170550;
-    --cor-secundaria: #31065A;
-    --cor-terciaria: #FF6C22;
-    /*Cor destaque */
+    --cor-principal: #242f49;
+    --cor-secundaria: #384358;
+    --cor-terciaria: #651a2b;
+    --cor-quaternaria:#10182a;
+    --cor-quinternaria: #3e0713;
+    --cor-destaque: #ffa586;/*Cor destaque */
     --branco: #fff;
+    --preto: #000;
+    --filter: invert(66%) sepia(32%) saturate(720%) hue-rotate(323deg) brightness(107%) contrast(101%);
     --fonte: 'Exo 2', sans-serif;
 }
 

@@ -1,6 +1,6 @@
 .conteudo__botao {
     background-color: transparent;
-    border: 2px solid var(--cor-terciaria);
+    border: 2px solid var(--cor-destaque);
     border-radius: 10px;
     padding: 0.5em;
     margin-bottom: 1em;
@@ -10,4 +10,5 @@
     color: var(--branco);
     text-decoration: none;
     font-weight: 600;
+    transition: all ease-in 0.5s;
 }
