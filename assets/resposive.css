@@ -65,6 +65,16 @@ Extra large screens, TV – 1201px, and more.
         display: none;
     }
 
+    .apresentacao__titulo{
+        padding: 1em 0;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
+
 }
 
 /* tablet */
@@ -94,6 +104,16 @@ Extra large screens, TV – 1201px, and more.
     .apresentacao {
         padding: 1em 1em 1em 0;
     }
+
+    .apresentacao__titulo{
+        padding-top: 1em;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
 
     .apresentacao__imagem {
         width: 100%;
@@ -145,6 +165,16 @@ Extra large screens, TV – 1201px, and more.
         text-align: center;
         padding: 1.75em 0;
     }
+
+    .apresentacao__titulo{
+        padding-top: 1em;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
 
     .apresentacao__rigth {
         width: 50%;
@@ -202,6 +232,16 @@ Extra large screens, TV – 1201px, and more.
         width: 50%;
         text-align: center;
         padding: 1.75em 0;
+    }
+
+    
+    .apresentacao__titulo{
+        padding-top: 1em;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
     }
 
     .apresentacao__rigth {
@@ -275,6 +315,15 @@ Extra large screens, TV – 1201px, and more.
         width: 50%;
         text-align: center;
         padding: 1.75em 0;
+    }
+
+    .apresentacao__titulo{
+        padding-top: 1em;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
     }
 
     .apresentacao__rigth {
