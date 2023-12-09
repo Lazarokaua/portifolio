@@ -1,0 +1,68 @@
+/* celular */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .bnt-contact {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 1rem;
+        padding-left: 13%;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+    }
+
+    .mobile-menu .bnt-contact {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+
+
+    .mobile-menu .bnt-contact a {
+        width: 20%;
+        margin-left: 25%;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .projetos__two {
+        display: none;
+    }
+
+    .apresentacao__titulo{
+        padding: 1em 0;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
+
+}

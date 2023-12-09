@@ -1,0 +1,84 @@
+/* desktop */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .nav-link:hover {
+        color: var(--cor-destaque);
+    }
+
+    .elipses__img:hover {
+
+        filter: var(--filter);
+    }
+
+    .apresentacao {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apresentacao__left {
+        width: 50%;
+        text-align: center;
+        padding: 1.75em 0;
+    }
+
+    
+    .apresentacao__titulo{
+        padding-top: 1em;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
+    .apresentacao__rigth {
+        width: 50%;
+        padding: 1em 0;
+    }
+
+    .projetos {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        margin-top: 2em;
+    }
+
+    .projetos__two {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .projetos__conteudo {
+        
+    }
+
+    .conteudo__titulo {
+        font-size: 25px;
+
+    }
+
+    .conteudo__imagem {
+   
+    }
+
+    .conteudo__botao {
+        margin: 2em 0;
+        height: 50px;
+    }
+
+    .conteudo__botao:hover {
+        background-color: var(--cor-destaque);
+    }
+
+    .rodape__imagem:hover {
+        filter: var(--filter);
+    }
+
+    .rodape__links___link:hover {
+        color: var(--cor-destaque);
+    }
+}

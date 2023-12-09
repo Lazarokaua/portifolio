@@ -1,0 +1,68 @@
+/* tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+   
+
+    .nav-bar {
+        padding: 1rem 1rem;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item {
+        display: block;
+    }
+
+    .bnt-contact a {
+        display: block;
+        padding: 1em 1em;
+    }
+
+    .mobile-menu-icon {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .apresentacao {
+        padding: 1em 1em 1em 0;
+    }
+
+    .apresentacao__titulo{
+        padding-top: 1em;
+        font-size: 30px;
+    }
+
+    #developer{
+        font-size: 30px;
+    }
+
+
+    .apresentacao__imagem__profile{
+        margin-top: 1em;
+        
+    }
+
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .projetos__two {
+        display: none;
+    }
+
+    .descricao__texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape {
+        width: 105%;
+    }
+}
