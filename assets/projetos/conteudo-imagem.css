@@ -2,4 +2,5 @@
     width: 150px;
     height: 87px;
     transition: all ease-in 0.7s;
+    border-radius: 8px;
 }
