@@ -40,6 +40,10 @@
     <link rel="stylesheet" href="/assets/informe/relacao.css">
     <link rel="stylesheet" href="/assets/informe/texto.css">
     <link rel="stylesheet" href="/assets/informe/titulo.css">
+    <link rel="stylesheet" href="/assets/stacks/left.css">
+    <link rel="stylesheet" href="/assets/stacks/right.css">
+    <link rel="stylesheet" href="/assets/stacks/stacks.css">
+    <link rel="stylesheet" href="/assets/stacks/titulo.css">
     <link rel="stylesheet" href="/assets/about/descricao-texto.css">
     <link rel="stylesheet" href="/assets/about/descricao.css">
     <link rel="stylesheet" href="/assets/about/destaque.css">
@@ -61,7 +65,7 @@
     <link rel="stylesheet" href="/assets/responsividade/desktop.css">
     <link rel="stylesheet" href="/assets/responsividade/extra-screen.css">
     <link rel="stylesheet" href="/assets/responsividade/laptop.css">
-    <link rel="stylesheet" href="/assets/responsividade/tablet.css"> 
+    <link rel="stylesheet" href="/assets/responsividade/tablet.css">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="/assets/reset.css">
 </head>
@@ -74,7 +78,9 @@
                 <ul>
                     <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about"> about</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://drive.google.com/u/0/uc?id=1KTM5imQ1H9A1VYkU7GuPVHlrjLB1FZk_&export=download" target="_blank"> curriculum</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="https://drive.google.com/u/0/uc?id=1KTM5imQ1H9A1VYkU7GuPVHlrjLB1FZk_&export=download"
+                            target="_blank"> curriculum</a></li>
                 </ul>
             </div>
             <div class="bnt-contact">
@@ -206,19 +212,23 @@
             </p>
         </div>
     </section>
-<!-- section of stacks -->
-
+    <!-- section of stacks -->
     <section class="stacks">
-        <div class="left">
-            <img class="left__imagem" src="/assets/imagens/Coding workshop-amico.svg" alt="html, css e JavaScript">
+        <h2 class="stacks__titulo">Technologies</h2>
+        <hr>
+        <div class="stacks__container">
+            <div class="left">
+                <img class="left__imagem" src="/assets/imagens/Coding workshop-amico.svg" alt="html, css e JavaScript">
 
-        </div>
+            </div>
 
-        <div class="right">
-           <a href="#"><img src="" ></a> 
-           <a href="#"> <img src="" ></a> 
-           <a href="#"> <img src=""></a> 
-            
+            <div class="right">
+                <div class="right__tec">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="right__link" target="_blank"><img src="/assets/imagens/icons8-html-48.svg">html</a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="right__link" target="_blank"><img src="/assets/imagens/icons8-css-48.svg">CSS</a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="right__link" target="_blank"> <img src="/assets/imagens/icons8-javascript-48.svg">JavaScript</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -230,8 +240,16 @@
                 class="apresentacao__imagem__profile2">
         </div>
         <div class="descricao">
-            <p class="descricao__texto">Sou um apaixonado programador front-end, comprometido em criar experiências digitais semânticas, envolventes e responsivas. Com uma sólida compreensão de HTML, CSS e em andamento no JavaScript, busco elevar o design e a funcionalidade de cada projeto em que me envolvo. Destaco-me na colaboração eficaz com equipes multidisciplinares, comunicando ideias complexas de forma clara. Acredito na importância da usabilidade e da acessibilidade, garantindo que cada usuário tenha uma experiência positiva.
-                Ao longo da minha jornada, pretendo adquirir habilidades, prncipalmente frameworks como React.js e Vue.js, permitindo-me criar interfaces dinâmicas e eficientes, tendo tudo isso em mente. Minha abordagem orientada a detalhes se reflete na busca constante pela otimização de desempenho e na garantia da compatibilidade multiplataforma.
+            <p class="descricao__texto">Sou um apaixonado programador front-end, comprometido em criar experiências
+                digitais semânticas, envolventes e responsivas. Com uma sólida compreensão de HTML, CSS e em andamento
+                no JavaScript, busco elevar o design e a funcionalidade de cada projeto em que me envolvo. Destaco-me na
+                colaboração eficaz com equipes multidisciplinares, comunicando ideias complexas de forma clara. Acredito
+                na importância da usabilidade e da acessibilidade, garantindo que cada usuário tenha uma experiência
+                positiva.
+                Ao longo da minha jornada, pretendo adquirir habilidades, prncipalmente frameworks como React.js e
+                Vue.js, permitindo-me criar interfaces dinâmicas e eficientes, tendo tudo isso em mente. Minha abordagem
+                orientada a detalhes se reflete na busca constante pela otimização de desempenho e na garantia da
+                compatibilidade multiplataforma.
             </p>
         </div>
     </section>

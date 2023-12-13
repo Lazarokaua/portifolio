@@ -1,0 +1,13 @@
+.rigth{
+    display: flex;
+}
+
+.right__tec{
+    display: flex;
+    text-align: center;
+}
+
+.right__link{
+    text-decoration: none;
+    color: var(--branco);
+}
