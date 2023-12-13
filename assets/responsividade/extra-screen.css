@@ -95,7 +95,33 @@
         height: 1.75rem;
     }
 
+    .left__imagem{
+        width: 500px;
+    }
 
+    .rigth{
+        display: flex;
+    }
+    
+    .right__tec{
+        display: flex;
+        text-align: center;
+        gap: 3%;
+    }
+
+    .right__itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right__imagem{
+        width: 200px;
+    }
+    
+    .right__link{
+        text-decoration: none;
+        color: var(--branco);
+    }
 
     .rodape__imagem:hover {
         filter: var(--filter);

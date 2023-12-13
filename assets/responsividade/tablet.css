@@ -1,7 +1,9 @@
 /* tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-   
+    .cabecalho {
+        width: 110%;
+    }
 
     .nav-bar {
         padding: 1rem 1rem;
@@ -28,22 +30,23 @@
     }
 
     .apresentacao {
+        width: 100%;
         padding: 1em 1em 1em 0;
     }
 
-    .apresentacao__titulo{
+    .apresentacao__titulo {
         padding-top: 1em;
         font-size: 30px;
     }
 
-    #developer{
+    #developer {
         font-size: 30px;
     }
 
 
-    .apresentacao__imagem__profile{
+    .apresentacao__imagem__profile {
         margin-top: 1em;
-        
+
     }
 
 
@@ -62,7 +65,34 @@
         flex-direction: column;
     }
 
-    .rodape {
-        width: 105%;
+    .informe{
+        width: 103%;
     }
+
+    .rigth{
+        display: flex;
+    }
+    
+    .right__tec{
+        display: flex;
+        text-align: center;
+        gap: 3%;
+    }
+
+    .right__itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right__imagem{
+        width: 100px;
+    }
+    
+    .right__link{
+        text-decoration: none;
+        color: var(--branco);
+    }
+    
+
 }
+

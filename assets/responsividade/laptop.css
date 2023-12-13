@@ -53,6 +53,32 @@
         gap: 5%;
     }
 
+   
+
+    .rigth{
+        display: flex;
+    }
+    
+    .right__tec{
+        display: flex;
+        text-align: center;
+        gap: 3%;
+    }
+
+    .right__itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right__imagem{
+        width: 100px;
+    }
+    
+    .right__link{
+        text-decoration: none;
+        color: var(--branco);
+    }
+
 
     .conteudo__botao:hover {
         background-color: var(--cor-terciaria);
