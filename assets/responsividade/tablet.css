@@ -1,8 +1,12 @@
 /* tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
+    html{
+        width: 102.5%;
+    }
+
     .cabecalho {
-        width: 110%;
+        width: 102.5%;
     }
 
     .nav-bar {
@@ -66,7 +70,7 @@
     }
 
     .informe{
-        width: 103%;
+        width: 102.5%;
     }
 
     .rigth{
