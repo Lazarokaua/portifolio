@@ -23,7 +23,8 @@ Durante o desenvolvimento deste projeto, enfrentei e superei os seguintes desafi
 
 - Organização eficiente de elementos em linhas e colunas, visando proporcionar uma experiência de usuário agradável.
 - Utilização de elementos sobrepostos para criar camadas de design envolventes e interessantes.
-- e a criação de interatividade com o usuário.
+- adaptação responsiva para diferentes telas e experiências.
+- criação de interatividade com o usuário.
 
 
 ## Preview
