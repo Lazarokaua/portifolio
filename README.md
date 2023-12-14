@@ -27,7 +27,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Preview
 
-![portifolio](file:///c%253A/Users/lazar/OneDrive/Imagens/Capturas%2520de%2520tela/printPortifolio.png)
+![portifolio](/css/assets/printPortifolio.png)
 
 
 ## Deploy
