@@ -27,7 +27,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Preview
 
-![portifolio](/css/assets/printPortifolio.png)
+![printPortifolio](https://github.com/Lazarokaua/portifolio/assets/132157522/03f72210-109d-4e30-a2f0-034761d82f4b)
 
 
 ## Deploy
@@ -35,3 +35,4 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 O projeto está disponível em [portifólio no Vercel](https://portifolio-eta-beige.vercel.app/) para visualização.
 
 Seja bem-vindo ao meu ambiente de aprendizados e evolução, e sinta-se à vontade para contribuir ou entrar em contato! 
+
