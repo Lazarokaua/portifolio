@@ -9,9 +9,7 @@
     }
 
     .elipses__img:hover {
-
        filter: var(--filter);
-
     }
 
     .apresentacao {
@@ -40,6 +38,24 @@
         width: 50%;
         padding: 1em 0;
     }
+
+       /* efeitos hover das imagens */
+
+       .apresentacao__imagem__profile:hover{
+        width: calc(100px + 50px);
+        height: calc(100px + 50px);
+    }
+
+    .apresentacao__imagem__profile2:hover{
+        width: calc(100px + 50px);
+        height: calc(100px + 50px);
+    }
+
+    .conteudo__imagem:hover{
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.1);
+    }
+
 
     .projetos {
         height: 50vh;
